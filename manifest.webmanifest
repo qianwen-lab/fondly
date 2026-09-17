@@ -1,18 +1,9 @@
 {
-  "name": "Fondly — People, remembered",
+  "name": "Fondly",
   "short_name": "Fondly",
-  "description": "A private little space for people, moments and reflections.",
   "start_url": "./",
-  "scope": "./",
   "display": "standalone",
   "background_color": "#faf8f5",
   "theme_color": "#faf8f5",
-  "icons": [
-    {
-      "src": "./fondly-icon.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ]
+  "icons": [{"src":"fondly-icon.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]
 }
