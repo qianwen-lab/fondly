@@ -1,4 +1,4 @@
-Fondly v0.8.0 — September 17, 2026
+Fondly v0.8.1 — September 17, 2026
 
 GitHub Pages deployment
 1. In your current Fondly, export JSON first.
@@ -17,3 +17,5 @@ v0.8 highlights
 - Mobile viewport remains fixed against accidental pinch zoom; inputs use mobile-safe sizing.
 
 Data remains local to the browser at the exact site address. Export JSON before upgrades or device/browser changes.
+
+v0.8.1 fix: Restore the missing reviewMonth state and monthSelect helper. Without these, clicking Review caused a JavaScript error and left the previous tab visible. Storage/schema are unchanged.
